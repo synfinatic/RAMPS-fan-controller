@@ -1,0 +1,85 @@
+18194199230080
+synfinatic
+D24V5Fx
+
+pololu D24V5Fx
+0
+4
+4
+synfinatic
+ESP-12E-SMD
+Module, ESP-8266, ESP-12, 16 pad, SMD
+Module ESP-8266 ESP8266
+0
+22
+22
+synfinatic
+FTDIHeader
+
+
+0
+6
+6
+synfinatic
+HC-SR04-Horizontal
+
+
+0
+4
+4
+synfinatic
+HC-SR04-Vertical
+
+
+0
+4
+4
+synfinatic
+M3screw
+
+
+0
+1
+1
+synfinatic
+PhoenixContact_MC-G_06x5.08mm_Angled
+Generic Phoenix Contact connector footprint for series: MC-G; number of pins: 06; pin pitch: 5.08mm; Angled || order number: 1836228 8A 320V
+phoenix_contact connector MC_01x06_G_5.08mm
+0
+6
+6
+synfinatic
+PinHeader_2x04_P2.54mm_Vertical-TopBottom
+Through hole straight pin header, 2x04, 2.54mm pitch, double rows
+Through hole pin header THT 2x04 2.54mm double row
+0
+8
+8
+synfinatic
+RJ45_8
+
+RJ45
+0
+8
+8
+synfinatic
+SPST-SMD-6x3.5
+https://www.amazon.com/gp/product/B00E6QJUGY/ref=oh_aui_search_detailpage?ie=UTF8&psc=1
+uxcell
+0
+2
+2
+synfinatic
+Songle-SRD-05VDC-SL-C
+
+
+0
+5
+5
+synfinatic
+USB_B
+USB B connector
+USB_B USB_DEV
+0
+6
+5
