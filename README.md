@@ -1,5 +1,9 @@
 # RAMPS v1.4 Fan and Analog Expansion Board
 
+## Warning
+
+This board is currently untested.  Manufacture & try at your own risk!
+
 ## What?
 
 This board adds six (6) PWM controlled MOSFETs for controlling fans or LED's

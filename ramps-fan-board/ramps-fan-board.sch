@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "RAMPS v1.4 6 Fan Control"
-Date "2020-03-22"
-Rev "1"
+Date "2020-03-23"
+Rev "1.5"
 Comp "Syn Fin dot Net"
 Comment1 "Created By: Aaron Turner"
 Comment2 ""
@@ -262,17 +262,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 6700 1450 6900
 $Comp
-L Connector_Generic:Conn_01x02 J7
-U 1 1 5E79F495
-P 9150 3600
-F 0 "J7" H 9230 3592 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 9230 3501 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9150 3600 50  0001 C CNN
-F 3 "~" H 9150 3600 50  0001 C CNN
-	1    9150 3600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Diode:1N4148W D2
 U 1 1 5E7A353C
 P 8550 4250
@@ -452,153 +441,32 @@ OUT5
 Text Label 7800 6400 0    50   ~ 0
 OUT6
 $Comp
-L Connector_Generic:Conn_01x02 J8
-U 1 1 5E7F0555
-P 9150 4100
-F 0 "J8" H 9230 4092 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 9230 4001 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9150 4100 50  0001 C CNN
-F 3 "~" H 9150 4100 50  0001 C CNN
-	1    9150 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J9
-U 1 1 5E7F0A3D
-P 9150 4600
-F 0 "J9" H 9230 4592 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 9230 4501 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9150 4600 50  0001 C CNN
-F 3 "~" H 9150 4600 50  0001 C CNN
-	1    9150 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J10
-U 1 1 5E7F0F0C
-P 9150 5100
-F 0 "J10" H 9230 5092 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 9230 5001 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9150 5100 50  0001 C CNN
-F 3 "~" H 9150 5100 50  0001 C CNN
-	1    9150 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J11
-U 1 1 5E7F1356
-P 9150 5600
-F 0 "J11" H 9230 5592 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 9230 5501 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9150 5600 50  0001 C CNN
-F 3 "~" H 9150 5600 50  0001 C CNN
-	1    9150 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J12
-U 1 1 5E7F1695
-P 9150 6100
-F 0 "J12" H 9230 6092 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 9230 6001 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9150 6100 50  0001 C CNN
-F 3 "~" H 9150 6100 50  0001 C CNN
-	1    9150 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J5
-U 1 1 5E7F2109
-P 5500 5800
-F 0 "J5" V 5596 5512 50  0000 R CNN
-F 1 "Conn_02x04_Top_Bottom" V 5505 5512 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5500 5800 50  0001 C CNN
-F 3 "~" H 5500 5800 50  0001 C CNN
-	1    5500 5800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J3
-U 1 1 5E7F3346
-P 5450 2750
-F 0 "J3" V 5546 2462 50  0000 R CNN
-F 1 "Conn_02x04_Top_Bottom" V 5455 2462 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5450 2750 50  0001 C CNN
-F 3 "~" H 5450 2750 50  0001 C CNN
-	1    5450 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x04 J4
 U 1 1 5E7F40C1
-P 5450 4350
-F 0 "J4" V 5414 4062 50  0000 R CNN
-F 1 "Conn_01x04" V 5323 4062 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5450 4350 50  0001 C CNN
-F 3 "~" H 5450 4350 50  0001 C CNN
-	1    5450 4350
-	0    -1   -1   0   
+P 5050 3850
+F 0 "J4" V 5014 3562 50  0000 R CNN
+F 1 "Conn_01x04" V 4923 3562 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5050 3850 50  0001 C CNN
+F 3 "~" H 5050 3850 50  0001 C CNN
+	1    5050 3850
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	5350 4550 5350 4800
+	4950 3650 4950 3400
 Wire Wire Line
-	5450 4550 5450 4800
+	5050 3650 5050 3400
 Wire Wire Line
-	5550 4550 5550 4800
+	5150 3650 5150 3400
 Wire Wire Line
-	5650 4550 5650 4800
-Wire Wire Line
-	5400 6000 5400 6250
-Wire Wire Line
-	5400 6250 5500 6250
-Wire Wire Line
-	5700 6250 5700 6000
-Wire Wire Line
-	5600 6000 5600 6250
-Connection ~ 5600 6250
-Wire Wire Line
-	5600 6250 5700 6250
-Wire Wire Line
-	5500 6000 5500 6250
-Connection ~ 5500 6250
-Wire Wire Line
-	5500 6250 5550 6250
-$Comp
-L power:GND #PWR0105
-U 1 1 5E837F50
-P 5550 6400
-F 0 "#PWR0105" H 5550 6150 50  0001 C CNN
-F 1 "GND" H 5555 6227 50  0000 C CNN
-F 2 "" H 5550 6400 50  0001 C CNN
-F 3 "" H 5550 6400 50  0001 C CNN
-	1    5550 6400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 6400 5550 6250
-Connection ~ 5550 6250
-Wire Wire Line
-	5550 6250 5600 6250
-Text Label 5350 4800 1    50   ~ 0
+	5250 3650 5250 3400
+Text Label 4950 3400 3    50   ~ 0
 D11
-Text Label 5450 4800 1    50   ~ 0
+Text Label 5050 3400 3    50   ~ 0
 D6
-Text Label 5550 4800 1    50   ~ 0
+Text Label 5150 3400 3    50   ~ 0
 D5
-Text Label 5650 4800 1    50   ~ 0
+Text Label 5250 3400 3    50   ~ 0
 D4
-Wire Wire Line
-	5550 2950 5550 3250
-Wire Wire Line
-	5650 2950 5650 3250
-Wire Wire Line
-	5650 2450 5650 2150
-Wire Wire Line
-	5550 2450 5550 2150
-Text Label 5550 2350 1    50   ~ 0
-D1
-Text Label 5650 2350 1    50   ~ 0
-D0
 $Comp
 L Connector_Generic:Conn_01x03 J2
 U 1 1 5E859ECB
@@ -665,10 +533,6 @@ Wire Wire Line
 	7850 1650 7700 1650
 Wire Wire Line
 	7700 1650 7700 1300
-Text Label 5550 3250 1    50   ~ 0
-A3
-Text Label 5650 3250 1    50   ~ 0
-A4
 Text Label 7700 1300 0    50   ~ 0
 A3
 Text Label 9300 1250 0    50   ~ 0
@@ -697,70 +561,248 @@ F 3 "" H 9100 1250 50  0001 C CNN
 	1    9100 1250
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR0110
-U 1 1 5E883A42
-P 5350 2150
-F 0 "#PWR0110" H 5350 2000 50  0001 C CNN
-F 1 "+5V" H 5365 2323 50  0000 C CNN
-F 2 "" H 5350 2150 50  0001 C CNN
-F 3 "" H 5350 2150 50  0001 C CNN
-	1    5350 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5350 2150 5350 2400
-Wire Wire Line
-	5350 2950 5100 2950
-Wire Wire Line
-	5100 2950 5100 2400
-Wire Wire Line
-	5100 2400 5350 2400
-Connection ~ 5350 2400
-Wire Wire Line
-	5350 2400 5350 2450
-$Comp
-L power:GND #PWR0111
-U 1 1 5E8A07E7
-P 5450 3250
-F 0 "#PWR0111" H 5450 3000 50  0001 C CNN
-F 1 "GND" H 5455 3077 50  0000 C CNN
-F 2 "" H 5450 3250 50  0001 C CNN
-F 3 "" H 5450 3250 50  0001 C CNN
-	1    5450 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 2950 5450 3050
-Wire Wire Line
-	5450 1850 4850 1850
-Wire Wire Line
-	4850 1850 4850 3050
-Wire Wire Line
-	4850 3050 5450 3050
-Wire Wire Line
-	5450 1850 5450 2450
-Connection ~ 5450 3050
-Wire Wire Line
-	5450 3050 5450 3250
-Wire Wire Line
-	5400 5500 5400 5350
-Wire Wire Line
-	5500 5500 5500 5350
-Wire Wire Line
-	5600 5500 5600 5350
-Wire Wire Line
-	5700 5500 5700 5350
-Text Notes 5300 5300 0    50   ~ 0
-+5V / Unused\n
-Text Notes 4850 5850 0    50   ~ 0
+Text Notes 4400 4650 0    50   ~ 0
 Servos\nBottom Pins
-Text Notes 4950 4400 0    50   ~ 0
+Text Notes 4550 3850 0    50   ~ 0
 Servos\nTop Pins
-Text Notes 5000 2750 0    50   ~ 0
+$Comp
+L Connector_Generic:Conn_01x04 J13
+U 1 1 5E83E17A
+P 3600 5800
+F 0 "J13" H 3680 5792 50  0000 L CNN
+F 1 "Conn_01x04" H 3680 5701 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 3600 5800 50  0001 C CNN
+F 3 "~" H 3600 5800 50  0001 C CNN
+	1    3600 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 5700 3250 5700
+Wire Wire Line
+	3250 5700 3250 5400
+$Comp
+L power:+24V #PWR0112
+U 1 1 5E845012
+P 3250 5400
+F 0 "#PWR0112" H 3250 5250 50  0001 C CNN
+F 1 "+24V" H 3265 5573 50  0000 C CNN
+F 2 "" H 3250 5400 50  0001 C CNN
+F 3 "" H 3250 5400 50  0001 C CNN
+	1    3250 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 5800 2900 5800
+Wire Wire Line
+	3400 5900 2900 5900
+Wire Wire Line
+	3400 6000 2900 6000
+Text Label 2900 5800 0    50   ~ 0
+OUT6
+Text Label 2900 5900 0    50   ~ 0
+OUT5
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J5
+U 1 1 5E7F2109
+P 5050 4650
+F 0 "J5" V 5146 4362 50  0000 R CNN
+F 1 "Conn_02x04_Top_Bottom" V 5055 4362 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5050 4650 50  0001 C CNN
+F 3 "~" H 5050 4650 50  0001 C CNN
+	1    5050 4650
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4950 4450 4950 4250
+Wire Wire Line
+	5050 4450 5050 4250
+Wire Wire Line
+	5150 4450 5150 4250
+Wire Wire Line
+	5250 4450 5250 4250
+Wire Wire Line
+	4950 4950 4950 5200
+Wire Wire Line
+	4950 5200 5050 5200
+Wire Wire Line
+	5250 5200 5250 4950
+Wire Wire Line
+	5150 4950 5150 5200
+Connection ~ 5150 5200
+Wire Wire Line
+	5150 5200 5250 5200
+Wire Wire Line
+	5050 4950 5050 5200
+Connection ~ 5050 5200
+Wire Wire Line
+	5050 5200 5100 5200
+Wire Wire Line
+	5100 5200 5100 5300
+Connection ~ 5100 5200
+Wire Wire Line
+	5100 5200 5150 5200
+$Comp
+L power:GND #PWR0105
+U 1 1 5E915456
+P 5100 5300
+F 0 "#PWR0105" H 5100 5050 50  0001 C CNN
+F 1 "GND" H 5105 5127 50  0000 C CNN
+F 2 "" H 5100 5300 50  0001 C CNN
+F 3 "" H 5100 5300 50  0001 C CNN
+	1    5100 5300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4950 4250
+NoConn ~ 5050 4250
+NoConn ~ 5150 4250
+NoConn ~ 5250 4250
+Text Notes 4900 4150 0    50   ~ 0
+5V / Unused
+Wire Wire Line
+	4800 1650 4800 1350
+Wire Wire Line
+	4800 1350 4550 1350
+Wire Wire Line
+	4550 1350 4550 2300
+Wire Wire Line
+	4550 2300 4800 2300
+Wire Wire Line
+	4800 2300 4800 2150
+Connection ~ 4800 1350
+Wire Wire Line
+	4800 1350 4800 1100
+Wire Wire Line
+	4900 1650 4900 1500
+Wire Wire Line
+	4900 1500 4400 1500
+Wire Wire Line
+	4400 1500 4400 2450
+Wire Wire Line
+	4400 2450 4700 2450
+Wire Wire Line
+	4900 2450 4900 2150
+Wire Wire Line
+	4700 2450 4700 2550
+Connection ~ 4700 2450
+Wire Wire Line
+	4700 2450 4900 2450
+$Comp
+L power:GND #PWR0110
+U 1 1 5E950FF7
+P 4700 2550
+F 0 "#PWR0110" H 4700 2300 50  0001 C CNN
+F 1 "GND" H 4705 2377 50  0000 C CNN
+F 2 "" H 4700 2550 50  0001 C CNN
+F 3 "" H 4700 2550 50  0001 C CNN
+	1    4700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 5E9515D4
+P 4800 1100
+F 0 "#PWR0111" H 4800 950 50  0001 C CNN
+F 1 "+5V" H 4815 1273 50  0000 C CNN
+F 2 "" H 4800 1100 50  0001 C CNN
+F 3 "" H 4800 1100 50  0001 C CNN
+	1    4800 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1650 5000 1350
+Wire Wire Line
+	5100 1650 5100 1350
+Wire Wire Line
+	5000 2150 5000 2450
+Wire Wire Line
+	5100 2150 5100 2450
+Text Label 5000 1350 3    50   ~ 0
+D1
+Text Label 5100 1350 3    50   ~ 0
+D0
+Text Label 5000 2450 1    50   ~ 0
+A3
+Text Label 5100 2450 1    50   ~ 0
+A4
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J3
+U 1 1 5E7F3346
+P 4900 1850
+F 0 "J3" V 4996 1562 50  0000 R CNN
+F 1 "Conn_02x04_Top_Bottom" V 4905 1562 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 4900 1850 50  0001 C CNN
+F 3 "~" H 4900 1850 50  0001 C CNN
+	1    4900 1850
+	0    -1   1    0   
+$EndComp
+Text Notes 4450 1950 0    50   ~ 0
 AUX-1
-NoConn ~ 5400 5350
-NoConn ~ 5500 5350
-NoConn ~ 5600 5350
-NoConn ~ 5700 5350
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 5E7F1695
+P 9150 6100
+F 0 "J12" H 9230 6092 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9230 6001 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9150 6100 50  0001 C CNN
+F 3 "~" H 9150 6100 50  0001 C CNN
+	1    9150 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J11
+U 1 1 5E7F1356
+P 9150 5600
+F 0 "J11" H 9230 5592 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9230 5501 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9150 5600 50  0001 C CNN
+F 3 "~" H 9150 5600 50  0001 C CNN
+	1    9150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 5E7F0F0C
+P 9150 5100
+F 0 "J10" H 9230 5092 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9230 5001 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9150 5100 50  0001 C CNN
+F 3 "~" H 9150 5100 50  0001 C CNN
+	1    9150 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5E7F0A3D
+P 9150 4600
+F 0 "J9" H 9230 4592 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9230 4501 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9150 4600 50  0001 C CNN
+F 3 "~" H 9150 4600 50  0001 C CNN
+	1    9150 4600
+	1    0    0    -1  
+$EndComp
+Text Label 2900 6000 0    50   ~ 0
+OUT4
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5E7F0555
+P 9150 4100
+F 0 "J8" H 9230 4092 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9230 4001 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9150 4100 50  0001 C CNN
+F 3 "~" H 9150 4100 50  0001 C CNN
+	1    9150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5E79F495
+P 9150 3600
+F 0 "J7" H 9230 3592 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9230 3501 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9150 3600 50  0001 C CNN
+F 3 "~" H 9150 3600 50  0001 C CNN
+	1    9150 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

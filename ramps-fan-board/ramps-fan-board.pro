@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=ramps-fan-controller.net
+LastNetListRead=ramps-fan-board.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
